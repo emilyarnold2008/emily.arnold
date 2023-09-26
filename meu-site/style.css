@@ -1,0 +1,43 @@
+/* Estilos CSS para o menu*/
+header {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Famor-a-livros.tumblr.com%2F&psig=AOvVaw3MSUfE6Ny2YZT928ifqENz&ust=1695757182984000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOj6n_bBxoEDFQAAAAAdAAAAABAJ;");
+    color: #23996E;
+    padding: 70px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline; /*coloca os itens da lista em linha */
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight:lighter
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #E67B63;
+}
+
+body { background: #d2d2c1 url('fundo.webp'); 
+font: 16px Arial, Helvetica, sans-serif; }
+
+
+
+#conteudo{
+    background: #61D77E;
+    padding: 10px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+h1{
+    color:#E67B63;
+    font-size: 1.2;;
+}
