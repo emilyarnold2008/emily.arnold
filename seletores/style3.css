@@ -1,0 +1,16 @@
+div{
+    display:inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    border:  1px solid black;
+}
+div#area01{
+    background-color: red;
+}
+#area02{
+    background-color: darkolivegreen;
+}
+div#area03, div#area05{
+    background-color: darkblue;
+}
