@@ -1,0 +1,270 @@
+/*body {
+    margin: 0;
+}
+
+.cabecalho {
+    text-align: center;
+    font-weight: bold;
+    background-color: #2D5377;
+  }
+ 
+.cabecalho__logo {
+    padding: 1.5em 0;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+ 
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #white;
+}
+ 
+.cabecalho__item-menu a {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1.86em 1.42em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(download1.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    max-height: 100%;
+}
+.banner-texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    color: #fff;
+}
+*/
+.cabecalho {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+ 
+    color: #fff;
+    background-color: rebeccapurple;
+  }
+ 
+  .cabecalho__logo {
+    padding: 1.5em 0;
+     width: 14.5em;
+  }
+ 
+  .cabecalho__menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ 
+    background-color: white;
+  }
+ 
+  .cabecalho__item-menu {
+    display: inline-block;
+    
+  }
+ 
+  .cabecalho__item-menu a {
+      display: inline-block;
+      padding: 1.86em 1.42em;
+      color: white;
+      text-decoration: none;
+      font-size: large;
+  
+}
+ 
+   .cabecalho {
+    padding: 0 5%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
+ 
+   .cabecalho__logo {
+    padding: 2.5em 0;
+   }
+
+  .cabecalho__menu {
+     background-color: transparent; 
+     
+   }
+ 
+ .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(download1.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    max-height: 100%;
+  
+}
+.banner-texto{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  color: #fff;
+}
+.container-pai{
+  display: flex;/* transforma em flexbox*/
+  padding: 25px;/* adiciona margem dentro*/
+  justify-content:space-evenly;/*espaçamento entre os elementos*/
+  background-color: rgb(0, 0, 0);/*cor de fundo*/
+}
+.container-filho{
+  background-color: rebeccapurple;/* cor de fundo*/
+  width: 200px;/*tamanho do container*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/* tipo de fonte*/
+  font-weight: bold;/* peso da fonte(negrito)*/
+  color: #fff;/*cor da fonte*/
+  border-radius: 15px;/* cantos arredondados*/
+  padding: 20px;/* adiciona margem dentro*/
+  text-align: center;/*centraliza o texto*/
+}
+.imagem_instrumentos{
+  max-width: 50%;
+  border-radius: 50%;
+}
+h2{
+  margin-top: 10px;
+  font-size: 18px;
+}
+p{
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.texto{
+  padding-top: 50px;/*cria uma margem em cima dentro da caixa */
+  padding-bottom: 50px;/*cria uma margem embaixo, dentro da caixa */
+  background-color: #000000;/*troca a cor do background */
+  display: flex;/*transforma em flexbox */
+  justify-content: center;/*coloca os filhos centralizados */
+}
+.texto2{
+color: white;/*troca a cor do texto para branco */
+font-family: Verdana, Geneva, Tahoma, sans-serif;/*muda a fonte */
+padding: 20px;/*espaçamento para o texto */
+margin-right: 50px;/*margem para a direita */
+}
+
+.imagem2{
+  width: 400px;/*seta o tamanho da largura da imagem */
+}
+.imagem-filha{
+  max-width: 100%;/*largura max  da imagem é igual ao pai dela  */
+  max-height: 100%;/*altura max da imagem é igual ao pai dela */
+  border-radius: 10px;/*cantos arredondados */
+}
+
+.avô-das-imagens{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+ padding: 10px;
+}
+.pai-das-imagens{
+  border: 2px solid #ddd;
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+}
+.imagens-filhas{
+  width: 250px;
+  height: 200px;
+}
+.logo{
+  background-color: rebeccapurple;
+  max-height: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 20px;
+}
+.imagem{
+  letter-spacing: 0.23em;
+  display: flex;
+  background-image: url(download1.png);
+}
+.logo-pé{
+  text-align: center;
+  background-color: rebeccapurple;
+  max-height: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 20px;
+
+}
+  
+  .banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(download.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    color:#000000;
+    height: 500px;
+  }
+   
+  .form-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(225, 225, 225, 0.9);/*fundo do formulário transparente*/
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);/*sombra suave*/
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imput, textarea{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+  }
+
+  .button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #741a9e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #400b58;
+  }

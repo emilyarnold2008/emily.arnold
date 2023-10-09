@@ -1,0 +1,34 @@
+.flex-container{
+    display: flex;
+    background-color: #840c0c;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: baseline;
+    height: 500px;
+    align-content: space-between;
+}
+.flex-container> div{
+    background-color: dodgerblue;
+    color: white;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/*#quad1{
+    order:3;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+#quad2{
+    order:3
+}
+#quad3{
+    order:2
+}
+#quad4{
+    order:1
+}*/
