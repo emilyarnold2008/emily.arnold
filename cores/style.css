@@ -1,0 +1,27 @@
+
+/*body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, yellow, red);
+    color:black
+}*/
+
+.corNome{
+    background-color: rgb(197, 124, 15); color:white;
+}
+
+.corHexa{
+    background-color: #742f50; color: #ffffff;
+}
+
+.corRGB{
+    background-color: rgb(104, 182, 182); color: rgb(255, 255, 255);
+}
+
+.corHSL{
+    background-color: hsl(187, 56%, 24%); color: hsl(0, 0%, 100%);
+}
+
+.transparente{
+    background-color: rgba(206, 196, 67, 0.5); color: white;
+}
+.centralizar{ text-align:center;}
