@@ -1,0 +1,21 @@
+/*table= inicia a tabela,tudo vai dentro
+tr= cria uma nova linha
+th= cria um título
+td=cria um dado*/
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 400px;
+    height: 10px;
+}
+.cor{
+    background-color: red;
+}
+.corForte{
+    background-color: darkred;
+}
+.transparente{
+    background-color: rgba(255, 0, 0, 0.372);
+}
