@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com Dom</title>
+    <style>
+        body{
+            background-color: blue;
+            color: rgb(252, 203, 203);
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+   <h1>Iniciando os estudos com DOM</h1>
+   <p>Aqui tem um parágrafo</p>
+   <p> Apredendo a usar o <strong>DOM</strong> em Javascript</p>
+   <p id="pteste">qualquer coisa</p>
+   <p class="pclasse">testando</p>
+   <button>Clique em mim</button>
+   <button id="botao2">Clique em mim também</button>
+
+   <script>
+    let corpo = document.body
+    corpo.style.backgroundColor = "black"
+
+    let paragrafo1 = document.getElementsByTagName('p')[1]
+    paragrafo1.style.color = 'red'
+
+    let clique = document.querySelector('button');
+    clique.addEventListener("click", function(event){
+        paragrafo1.style.color='withe';
+        corpo.style.backgroundColor= 'blue';
+
+    })
+
+/*Adiciona um evento que executa um código quando clico no elemento*/
+    clique.addEventListener('click', function(event){
+        //aqui vai o meu código
+        console.log('você clicou no botão')
+    })
+    /* dentro do meu documento, eu estou procurando algum elemento que tenha ID "pteste", e atribuo ele a variável paragrafo2*/
+        let paragrafo2 = document.getElementById('pteste')
+        paragrafo2.style.color = 'blue'
+        paragrafo2.style.fontSize = '50px'
+  
+        let paragrafo3 = document.getElementsByClassName('pclasse')[0]
+        paragrafo3.style.color= 'red'
+
+//adiciona um evento que executa um código quando o mouse está em cima do elemento
+        let mouseEmCima= document.getElementById('botao2')
+        mouseEmCima.addEventListener('mouseover',  function(event){
+            console.log('passou o mouse por cima')
+        });
+
+//adiciona um evento que executa um código quando o mouse sai de  cima do elemento
+        mouseEmCima.addEventListener('mouseout', function(event){
+            console.log('mouse saiu de cima')
+        })
+
+        document.addEventListener('keydown', function(event){
+            console.log('tecla pressionada'+ event.key)
+        })
+   </script>
+</body>
+</html>

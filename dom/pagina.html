@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" a href="icons8-favicon-64.png" title="pesquisa ícones">
+      
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+   
+            <img  src="images.jpg" alt="">
+        </div>
+      
+        <nav class="cabecalho__menu">
+            <div class="cabecalho__item-menu">
+                <a href="contato.html">CONTATO</a>
+            </div>
+            <div class="cabecalho__item-menu">
+                <a href="entrar.html">ENTRAR</a>
+            </div>
+            <div class="cabecalho__item-menu">
+                <a href="matricula.html">MATRICULE-SE</a>
+            </div>
+           
+        </nav>
+       
+        
+    </header> 
+
+
+     
+    
+    <main>
+        <div id="conteudo">
+    <h1> Seja Bem-vindo</h1>
+    <p> Esse site tem por finalidade ajudar os leitores que tem dúvidas sobre qual livro comprar, ou até mesmo onde comprar, por isso vamos ajudar da forma mais fácil.<br> Meu caro leitor aqui você vai enontrar diversos livros com resenhas e preços mais acessíveis para o seu bolso.<br> Fique a vontade para acessar nosso site da maneira como quiser e ter uma ótima experiencia</p>
+       
+    <div>
+        <h4 class="centralizar">Espero que tenham gostado</h4>
+    </div>
+
+    <button id="botao">Mude de cor para ler melhor</button>
+   <p class="pteste">Aproveite</p>
+    </main>
+    <script>
+        let corpo = document.body
+    corpo.style.backgroundColor = "black"
+
+    let paragrafo1 = document.getElementsByTagName('p')[1]
+    paragrafo1.style.color = 'red'
+
+    let clique = document.querySelector('button');
+    clique.addEventListener("click", function(event){
+        paragrafo1.style.color='withe';
+        corpo.style.backgroundColor= 'blue';
+
+    })
+
+    
+        </script>
+</body>
+</html>
