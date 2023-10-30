@@ -1,0 +1,343 @@
+
+
+.div-pai{
+  
+    display: inline-block;
+}
+#div1{
+    background-color: magenta;
+    display: inline-block;
+
+  
+}
+
+#div2{
+    background-color: teal;
+display: inline-block;
+
+}
+.container-pai{
+    display: flex;/* transforma em flexbox*/
+    padding: 25px;/* adiciona margem dentro*/
+    justify-content:space-evenly;/*espaçamento entre os elementos*/
+    background-color: rgb(255, 255, 255);/*cor de fundo*/
+    
+    
+  }
+  .container-filho{
+    background-color:  #d3704c;/* cor de fundo*/
+    width: 200px;/*tamanho do container*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* tipo de fonte*/
+    font-weight: bold;/* peso da fonte(negrito)*/
+    color: black;/*cor da fonte*/
+    border-radius: 15px;/* cantos arredondados*/
+    padding: 20px;/* adiciona margem dentro*/
+    text-align: center;/*centraliza o texto*/
+   
+  }
+  .imagem_instrumentos{
+    max-width: 100%;
+  
+}
+h2{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+.imagen{
+    text-align: center;
+}
+
+/*estilos para dispositivos móveis*/
+@media (max-width: 768px){
+#cabecalho-desk{
+    display: none;
+}
+.cabecalho{
+    text-align: center;
+    font-weight: bold;
+    background-color: #d3704c ;
+}
+
+.cabecalho__logo{
+    padding: 1.5em 0;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho__menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #272B3A87;
+    padding: 2%;
+    
+   
+}
+
+.escondida {
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 0;
+    max-height: 60px;
+    overflow: hidden;
+    transition: max-width 0.3s ease-in-out;
+}
+
+.mostrar {
+    max-width: 200px;
+}
+
+
+#dropdown_menu a  {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+
+}
+
+/* Estilos para desktop*/
+@media (min-width: 769px){
+    #cabecalho-mobile{
+        display: none;
+    }
+    body {
+        margin: 0;
+      
+    }
+    
+    .cabecalho {
+        text-align: center;
+        font-weight: bold;
+        background-color: #ffffff;
+       
+    }
+      .cabecalho__logo {
+        padding: 1.5em 0;
+        height: 200px;
+        display: flex;
+    
+        text-align: left;
+       
+    }
+    .cabecalho__menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color:  #d3704c;
+    }
+    
+    .cabecalho__item-menu a {
+        
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1.86em 1.42em;
+        text-decoration: none;
+        color:  #000000;;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
+}
+
+.fundo{
+    background-image: url(3127955-abstract-white-and-grey-background-with-dynamic-waves-shape-gratis-vetor.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    max-height: 100%;
+}
+.letra{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fotos{
+    display: flex;/* transforma em flexbox*/
+    padding: 25px;/* adiciona margem dentro*/
+    justify-content:space-around;/*espaçamento entre os elementos*/
+    background-color: rgb(255, 255, 255);/*cor de fundo*/
+    
+   
+  
+}
+.fotos-filhas{
+    background-color:   #d3704c;/* cor de fundo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* tipo de fonte*/
+    font-weight: bold;/* peso da fonte(negrito)*/
+    color: black;/*cor da fonte*/
+    border-radius: 15px;/* cantos arredondados*/
+    padding: 20px;/* adiciona margem dentro*/ 
+    text-align: center;/*centraliza o texto*/
+    margin-left: 30px;
+}
+.logo-pé{
+    text-align: center;
+    background-color:  #d3704c;
+    max-height: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 20px;
+    justify-content: center;
+
+  }
+ 
+ footer{
+    background-color:   #d3704c;
+    color:black;
+    text-align:center;
+    padding: 20px;
+    margin-top: 50px;
+
+ }
+ ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+ }
+ li{
+    display: inline-block;
+    margin: 0 10px;
+ }
+ a{
+    color:black;
+    text-decoration: none;
+ }
+
+.cabecalho-logos{
+    text-align: center;
+}
+.cabecalho-log{
+    text-align: center;
+}
+.cabecalho__lo{
+    text-align: center;
+}
+
+
+.esqdir {
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.esquerdo {
+    margin-right: 20px;
+}
+
+
+#cabecalho1 {
+    display: flex;
+    
+}
+
+#PREPARO {
+    margin-right: 20px;
+}
+.abecalho_logo{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
